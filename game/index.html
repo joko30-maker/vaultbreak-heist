@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaultbreak — The Meridian Museum Heist</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0b0d13; }
+  #game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+  #status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+</style>
+</head>
+<body>
+<canvas id="game" aria-label="Vaultbreak: a stealth heist game. Cross the museum hall, avoid the guards' and cameras' vision cones, lift the Star of Meridian from the vault and reach the getaway van."></canvas>
+<p id="status">Vaultbreak, a stealth heist game. Move with WASD or the arrow keys, hold nothing to stand still and steal beside a case, press Shift to dash unseen through a cone, and click to toss a decoy coin. Fill the alarm and you are caught; take the Star of Meridian and reach the south door to win.</p>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
